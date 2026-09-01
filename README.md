@@ -2,33 +2,33 @@
 
 ## 📌 Project Overview
 
-This project presents an interactive **Power BI dashboard** developed to analyze the sales performance of Maven Toy Store.
+This project presents an interactive **Power BI dashboard** created to analyze the sales performance of Maven Toy Store.
 
-The main objective of the project is to evaluate revenue, profitability, product performance, inventory levels, seasonal sales trends, and store performance.
+The goal of the analysis is to understand:
 
-The dashboard helps identify key business opportunities and supports data-driven decision-making related to products, inventory, and store expansion.
+- Overall sales and profitability
+- Product performance
+- Store performance
+- Inventory levels
+- Seasonal sales trends
+- Potential store expansion opportunities
+
+The dashboard transforms raw business data into clear and actionable insights that can support data-driven decision-making.
 
 ---
 
-## 🎯 Business Questions
+## 🛠️ Tools Used
 
-The analysis was designed to answer several key business questions:
-
-- Which products are the most profitable?
-- Which products generate the highest sales?
-- Which products have the highest number of units sold?
-- Which product categories perform best?
-- Which store locations generate the highest profit?
-- Which cities perform best?
-- When is the best time of year to open a new store?
-- Are there opportunities for store expansion?
-- How much inventory is currently available?
+- Power BI
+- Power Query
+- DAX
+- Data Modeling
+- Data Visualization
+- Business Intelligence
 
 ---
 
 ## 📊 Key Performance Indicators
-
-The dashboard tracks the following main KPIs:
 
 | KPI | Result |
 |---|---:|
@@ -40,11 +40,11 @@ The dashboard tracks the following main KPIs:
 
 ---
 
-## 📈 Dashboard Pages
+# 📈 Dashboard
 
-### 1. Sales Overview
+## 1. Sales Overview
 
-The Sales Overview dashboard provides a high-level view of business performance.
+The Sales Overview page provides a high-level view of overall business performance.
 
 It includes:
 
@@ -53,45 +53,47 @@ It includes:
 - Average Gross Profit Margin
 - Total Units Sold
 - Stock on Hand
-- Product profitability analysis
-- Top 5 products by sales
-- Top 5 products by units sold
-- Monthly revenue and profit trends
-- Product category performance
-- Interactive filters by year, product category, and store location
+- Top 5 Products by Sales
+- Top 5 Products by Units Sold
+- Product Profitability
+- Monthly Revenue and Profit Trends
+- Product Category Performance
+- Interactive filters by Year, Product Category and Store Location
 
-![Sales Overview](images/01-sales-overview.png)
+![Sales Overview](images/sales-overview.png)
 
 ---
 
-### 2. Store & Product Analysis
+## 2. Store & Product Analysis
 
-This page provides a deeper analysis of product profitability, inventory, store performance, and geographic sales distribution.
+This page provides a deeper analysis of store and product performance.
 
 It includes:
 
-- Profit margin by product
-- Stock on hand by product
-- Gross profit by city
-- Revenue breakdown by store and product category
-- Geographic store analysis
-- Interactive filtering by year, category, and store location
+- Profit Margin by Product
+- Stock on Hand by Product
+- Gross Profit by Store City
+- Revenue Breakdown by Store
+- Product Category Analysis
+- Geographic Analysis
+- Decomposition Tree
+- Interactive Filters
 
-![Store and Product Analysis](images/02-store-product-analysis.png)
-
----
-
-### 3. Detailed Analysis
-
-The final page summarizes the most important findings from the dashboard and provides business recommendations based on the analysis.
-
-![Detailed Analysis](images/03-detailed-analysis.png)
+![Store and Product Analysis](images/store-product-analysis.png)
 
 ---
 
-## 🔎 Key Insights
+## 3. Detailed Analysis
 
-### 🏆 Product Performance
+The Detailed Analysis page summarizes the main findings and business recommendations generated from the dashboard.
+
+![Detailed Analysis](images/detailed-analysis.png)
+
+---
+
+# 🔎 Key Insights
+
+## 🏆 Product Performance
 
 The most profitable products include:
 
@@ -99,7 +101,7 @@ The most profitable products include:
 - Mini Basketball Hoop
 - Playfoam
 
-The top-performing products by total sales include:
+The highest-performing products by total sales include:
 
 - Lego Bricks
 - Colorbuds
@@ -111,7 +113,7 @@ The top-performing products by total sales include:
 
 ---
 
-### 📦 Units Sold
+## 📦 Units Sold
 
 The products with the highest number of units sold include:
 
@@ -123,14 +125,14 @@ The products with the highest number of units sold include:
 
 ---
 
-### 🏪 Store Performance
+## 🏪 Store Performance
 
-The analysis shows that the most profitable store location types are:
+The analysis shows that the strongest-performing store location types include:
 
 - Airport
 - Downtown
 
-Some of the strongest-performing cities include:
+Some of the top-performing cities are:
 
 - Ciudad de Mexico
 - Guadalajara
@@ -138,17 +140,17 @@ Some of the strongest-performing cities include:
 
 ---
 
-### 📅 Seasonal Trends
+## 📅 Seasonal Trends
 
 Sales and profit performance is stronger during the **spring and summer months**.
 
 Lower performance was observed toward **October–December**.
 
-Based on this trend, opening a new store during **spring or early summer** may provide a stronger launch period and higher initial customer traffic.
+Based on these trends, opening a new store during **spring or early summer** may provide a stronger launch period.
 
 ---
 
-### 🌍 Expansion Opportunity
+## 🌍 Expansion Opportunities
 
 The analysis identified potential expansion opportunities in:
 
@@ -157,23 +159,23 @@ The analysis identified potential expansion opportunities in:
 
 These cities currently do not have Airport-format stores.
 
-Since Airport locations demonstrate strong profitability, introducing this store format in these cities could represent a potential growth opportunity.
+Since Airport locations demonstrate strong profitability, introducing this type of store in these cities may represent a potential business opportunity.
 
 ---
 
-### 🧸 Product Category Performance
+## 🧸 Product Category Performance
 
 The **Toys** category is the strongest-performing product category.
 
-The **Sports & Outdoors** category recorded the lowest profit at approximately **$0.51M**, indicating an opportunity for further investigation and optimization.
+The **Sports & Outdoors** category generated the lowest profit at approximately **$0.51M**, indicating an opportunity for further investigation and optimization.
 
 ---
 
-## 💡 Business Recommendations
+# 💡 Business Recommendations
 
 Based on the analysis:
 
-1. Prioritize high-performing products such as Lego Bricks, Colorbuds, Jenga, and Mini Basketball Hoop.
+1. Prioritize high-performing products such as Lego Bricks, Colorbuds, Jenga and Mini Basketball Hoop.
 
 2. Maintain sufficient inventory levels for products with high sales volume.
 
@@ -181,25 +183,13 @@ Based on the analysis:
 
 4. Consider spring or early summer when planning new store openings.
 
-5. Explore opportunities to introduce Airport-format stores in cities such as Hermosillo and Guanajuato.
+5. Explore opportunities to introduce Airport-format stores in Hermosillo and Guanajuato.
 
-6. Continue monitoring product profitability together with sales volume instead of evaluating revenue alone.
-
----
-
-## 🛠️ Tools & Technologies
-
-- **Power BI**
-- **Power Query**
-- **DAX**
-- **Data Modeling**
-- **Data Visualization**
-- **Business Intelligence**
-- **Data Analysis**
+6. Monitor both product profitability and sales volume when making inventory and product decisions.
 
 ---
 
-## 🗂️ Data Model
+# 🗂️ Data Model
 
 The Power BI model includes data related to:
 
@@ -209,29 +199,30 @@ The Power BI model includes data related to:
 - Inventory
 - Calendar
 
-A dedicated measure table was also used to organize calculated metrics and KPIs.
+A separate Measure table was also used to organize calculated metrics and KPIs.
 
 ---
 
-## ⚙️ Power BI Features Used
+# ⚙️ Power BI Features Used
 
-- Data cleaning and transformation
-- Data modeling
-- DAX measures
-- KPI cards
-- Bar charts
-- Line and area charts
-- Donut charts
+- Data Cleaning
+- Power Query
+- Data Modeling
+- DAX Measures
+- KPI Cards
+- Bar Charts
+- Line Charts
+- Donut Charts
 - Maps
 - Decomposition Tree
 - Tables
 - Slicers
 - Tooltips
-- Interactive filtering
+- Interactive Filtering
 
 ---
 
-## 📁 Repository Structure
+# 📁 Repository Structure
 
 ```text
 maven-toy-store-power-bi/
@@ -239,10 +230,7 @@ maven-toy-store-power-bi/
 ├── Maven-Toy-Store-Analysis.pbix
 ├── README.md
 │
-├── images/
-│   ├── 01-sales-overview.png
-│   ├── 02-store-product-analysis.png
-│   └── 03-detailed-analysis.png
-│
-└── data/
-    └── dataset files
+└── images/
+    ├── sales-overview.png
+    ├── store-product-analysis.png
+    └── detailed-analysis.png
